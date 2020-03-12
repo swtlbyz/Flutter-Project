@@ -7,9 +7,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Flutter Demo",
+      title: "Demo Sidebar Menu and Dashboard",
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: MenuDashboard(),
+      home: SafeArea(child: MenuDashboard()),
     );
   }
 }

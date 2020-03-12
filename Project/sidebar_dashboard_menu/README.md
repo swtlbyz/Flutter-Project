@@ -1,4 +1,4 @@
-# sidebardashboardmenu
+# Sidebar Menu and Dashboard Demo with Flutter
 
 Sidebar Menu and Dashboard with Flutter
 

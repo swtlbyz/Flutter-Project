@@ -29,6 +29,7 @@ class _MyAppState extends State<MyApp> {
                     icon: Icon(Icons.adb),
                     prefixIcon: Icon(Icons.person),
                     labelText: "Nama Lengkap",
+                    suffixIcon: Icon(Icons.access_alarm),
                     hintText: "Masukan nama lengkap anda"),
 //                obscureText: true, // untuk menyembunyikan karakter, spt password
                 maxLength: 30,

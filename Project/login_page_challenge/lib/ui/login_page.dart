@@ -83,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
         margin: EdgeInsets.only(bottom: 25),
         child: Text(
           _timeString,
-          style: TextStyle(fontSize: 55.0, color: Colors.black),
+          style: TextStyle(fontSize: 55.0, color: Colors.black, fontFamily: "Montserrat", fontWeight: FontWeight.w700),
         ));
   }
 
@@ -92,18 +92,19 @@ class _LoginPageState extends State<LoginPage> {
       width: MediaQuery.of(context).size.width * 0.5,
       height: MediaQuery.of(context).size.height * 0.1,
       child: RaisedButton(
+        onPressed: () {},
         elevation: 5,
         shape: StadiumBorder(),
         child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Icon(Icons.camera_alt),
+              Icon(Icons.camera_alt, color: Colors.white,),
               Text(
                 "Tekan Untuk Selfie",
                 style: TextStyle(color: Colors.white),
               ),
             ]),
-        color: Colors.black,
+        color: Colors.black54,
       ),
     );
   }
