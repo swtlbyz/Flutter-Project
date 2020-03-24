@@ -11,7 +11,7 @@ class ApiPostResult {
 
   factory ApiPostResult.createPostResult(Map<String, dynamic> object) {
     return ApiPostResult(
-        id: object['id'],
+        id: object['id'].toString(),
         name: object['name'],
         job: object['job'],
         created: object['createdAt']);
